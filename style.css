@@ -1,0 +1,143 @@
+:root {
+  --bluesoft: #f9fbfc;
+  --blue: #9E59FF, #3029D9;
+  --purplesoft: #e5e4ff;
+  --navy: #101041;
+  --darkgrey: #949293;
+  --darkgrey2: #e7ebed;
+  --grey: #dfe2e7;
+  --purple: #6261db;
+  --green: #316762;
+  --white: #ffffff;
+  --fwbold: 700;
+  --fwextrabold: 800;
+  --fwsemibold: 600;
+  --fwmedium: 500;
+  --fwreguler: 400;
+  --fwlight: 300;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--white);
+}
+
+.navbar {
+  background-color: #3029D9;
+}
+
+.navbar-brand {
+  color: var(--white);
+  font-weight: var(--fwbold);
+  font-size: 28px;
+}
+
+.nav-link {
+  color: #dfe2e7;
+  position: relative;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100px;
+  height: 3px;
+  background: #ffffff;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+.nav-link:hover::after { 
+  color: #ffffff;
+  transform: scaleX(1);
+}
+
+.navbar-nav .nav-item {
+  padding-right: 25px;
+  padding-left: 25px;
+  font-weight: var(--fwreguler);
+}
+
+
+.dropdown-toggle {
+  color: #dfe2e7;
+}
+
+.big-header {
+  font-weight: var(--fwextrabold);
+  color: #ffffff;
+  font-size: 46px;
+  margin: 0;
+}
+
+.main-bg {
+  height: 676px;
+  width: auto;
+  background: radial-gradient(50% 50% at 50% 50%, #5975FF 0%, #3029D9 100%);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.mt-285 {
+  margin-top: 285px;
+}
+.mt-10 {
+  margin-top: 10rem;
+}
+
+.home .big-header {
+  font-size: 94px;
+  line-height: 128px;
+  margin-top: 5rem;
+}
+
+.home .primary-copy {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.fin-text p {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 5rem;
+  color:  #3029D9;
+  
+
+}
+
+.fin-text h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0B1131;
+
+}
+
+.fin-text .primary-copy{
+  font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color:  #A0ABB8;
+
+}
